@@ -1,8 +1,8 @@
 # @summary 
-#  Configure a whole LAMP stack role
+#  Configure a whole Staging stack role
 # @example
-#   include role::lamp
-class role::lamp {
+#   include role::staging_default
+class role::staging_default {
   include profile::base
   include profile::apache
   include profile::mysql::server
