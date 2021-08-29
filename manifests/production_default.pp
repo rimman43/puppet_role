@@ -1,8 +1,8 @@
 # @summary 
-#  Configure a whole Production stack role
+#  Configure a whole Production stack roles
 # @example
-#   include role::production_default
-class puppet_role::production_default {
+#   include roles::production_default
+class puppet_roles::production_default {
   include profile::base
   include profile::apache
   include profile::mysql::server
